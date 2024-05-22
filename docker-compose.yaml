@@ -2,7 +2,7 @@ version: '3.8'  # Version du format de Docker Compose utilisé dans ce fichier
 services:  # Définition des services Docker
 
   flask:  # Service pour l'application Flask
-    image: projet/flask-app:V0.1  # Utilisation de l'image Docker pré-construite pour Flask
+    image: projet/flask-app:v0.1  # Utilisation de l'image Docker pré-construite pour Flask
     build:  # Construction personnalisée de l'image
       context: ./App  # Chemin vers le répertoire contenant le Dockerfile pour la construction de l'image
     ports:  # Configuration des ports à exposer
